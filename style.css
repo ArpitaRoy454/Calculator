@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Public+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+}
+.container h1{
+padding-top: 5%;
+    margin-bottom: 30px;
+}
+
+.calculator {
+  background-color: rgb(80, 198, 190);
+  padding: 20px;
+  margin: 0px 35%;
+  border: 2px solid rgb(43, 44, 41);
+  box-shadow: 7px 10px 5px 2px rgb(236, 230, 230);
+}
+
+.button {
+  padding: 17px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 55px;
+  font-size: 1.1rem;
+}
+.button:hover{
+  background-color: #92ffff;
+  box-shadow: 1px 2px 6px gray;
+}
+.row {
+  margin: 8px 0;
+}
+.input{
+   padding: 10px ;
+    margin: 10px 12px;
+    font-size: 1rem;
+    border: 2px solid black;
+    width: 288px;
+}
+
+@media only screen and   (max-width:1050px) {
+    .calculator{
+        margin:10px;
+        padding: 5px;
+       
+        
+    }
+    .container{
+        margin: 10% 25px;
+        width: fit-content;
+        width: -moz-fit-content;
+        height: fit-content;
+    }
+}
+
